@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="logo" href="index.html">Your Name</a>
+      <nav aria-label="Primary">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="projects.html">Portfolio</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="btn btn-small" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap page">
+    <h1>Portfolio</h1>
+    <p class="section-lead">Projects with optional PDFs that open online.</p>
+
+    <article id="project-one" class="case">
+      <h2>Project One</h2>
+      <p class="meta">Your role • Tools • Date</p>
+      <p><strong>Problem:</strong> …</p>
+      <p><strong>Approach:</strong> …</p>
+      <p><strong>Outcome:</strong> …</p>
+      <div class="actions">
+        <a class="btn btn-ghost" href="#" target="_blank" rel="noreferrer">Live</a>
+        <a class="btn btn-ghost" href="#" target="_blank" rel="noreferrer">Code</a>
+        <a class="btn" href="assets/Project-One.pdf" target="_blank" rel="noreferrer">View PDF</a>
+      </div>
+    </article>
+
+    <article id="project-two" class="case">
+      <h2>Project Two</h2>
+      <p class="meta">Your role • Tools • Date</p>
+      <p><strong>Problem:</strong> …</p>
+      <p><strong>Approach:</strong> …</p>
+      <p><strong>Outcome:</strong> …</p>
+      <div class="actions">
+        <a class="btn" href="assets/Project-Two.pdf" target="_blank" rel="noreferrer">View PDF</a>
+      </div>
+    </article>
+
+    <article id="project-three" class="case">
+      <h2>Project Three</h2>
+      <p class="meta">Your role • Tools • Date</p>
+      <p><strong>Problem:</strong> …</p>
+      <p><strong>Approach:</strong> …</p>
+      <p><strong>Outcome:</strong> …</p>
+      <div class="actions">
+        <a class="btn" href="assets/Project-Three.pdf" target="_blank" rel="noreferrer">View PDF</a>
+      </div>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-row">
+      <p>© <span id="y"></span> Your Name</p>
+      <p class="muted"><a href="resume.html">Resume</a></p>
+    </div>
+  </footer>
+
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
