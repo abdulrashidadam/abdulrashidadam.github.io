@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Resume</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="wrap navbar-row">
+      <a class="brand" href="index.html">YOUR NAME</a>
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a class="active" href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="wrap">
+      <h2>Resume</h2>
+      <p class="sub">View in browser or download.</p>
+
+      <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin-bottom:18px;">
+        <a class="btn" href="assets/YourName-Resume.pdf" target="_blank" rel="noreferrer">View PDF</a>
+        <a class="btn btn-outline" href="assets/YourName-Resume.pdf" download>Download</a>
+      </div>
+
+      <div class="pdf-frame">
+        <iframe title="Resume PDF" src="assets/YourName-Resume.pdf"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap footer-row">
+      <div>© <span id="y"></span> Abdul Rashid Adam</div>
+      <div><a href="portfolio.html">Portfolio</a></div>
+    </div>
+  </footer>
+
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

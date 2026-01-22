@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Latest Work</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="wrap navbar-row">
+      <a class="brand" href="index.html">YOUR NAME</a>
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">My Specializations and Skills</a></li>
+        <li><a class="active" href="portfolio.html">Latest Work</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="wrap">
+      <h2>Latest Work</h2>
+      <p class="sub">
+        Add as many projects as you want. Each project should have a title, a short description, and a report link.
+      </p>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <img src="assets/project-1.jpg" alt="Project 1">
+          <div class="body">
+            <h3>Comparative Neighborhood Study; the case of Melrose and Creekside, Iowa City</h3>
+            <p>Short project description. Mention scope, methods, and measurable results.</p>
+            <a class="btn" href="assets/Project-1-Report.pdf" target="_blank" rel="noreferrer">Project Report</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="assets/project-2.jpg" alt="Project 2">
+          <div class="body">
+            <h3>The Role of Fare-free Transit in Sustainable Transportation: The case of Iowa City</h3>
+            <p>Short project description. Mention stakeholders, process, and outcome.</p>
+            <a class="btn" href="assets/Project-2-Report.pdf" target="_blank" rel="noreferrer">Project Report</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="assets/project-3.jpg" alt="Project 3">
+          <div class="body">
+            <h3>Connecting the Dots: Mapping the Determinants of the Use of Sustainable Modes of Transportation in the Sacramento Region</h3>
+            <p>Short project description. Mention tools used and deliverables produced.</p>
+            <a class="btn" href="assets/Project-3-Report.pdf" target="_blank" rel="noreferrer">Project Report</a>
+          </div>
+        </article>
+      </div>
+
+      <div style="margin-top:28px;">
+        <h3 style="margin:0 0 10px; font-size:22px;">Gallery (optional)</h3>
+        <div class="grid">
+          <div class="tile"><img src="assets/project-1.jpg" alt="Gallery image 1"></div>
+          <div class="tile"><img src="assets/project-2.jpg" alt="Gallery image 2"></div>
+          <div class="tile"><img src="assets/project-3.jpg" alt="Gallery image 3"></div>
+          <div class="tile"><img src="assets/project-1.jpg" alt="Gallery image 4"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap footer-row">
+      <div>© <span id="y"></span> Abdul Rashid Adam</div>
+      <div><a href="publications.html">Publications</a> • <a href="about.html">About</a></div>
+    </div>
+  </footer>
+
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
